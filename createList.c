@@ -32,8 +32,6 @@ int main(){
         count++;
     }
 
-
-
     FILE *fp;
     char sourceFile[100];
 

@@ -8,7 +8,6 @@ int main(){
     scanf("%s", sourceFileName);
 
     sourceFile = fopen(sourceFileName, "r");
-
     if (sourceFile == NULL) {
         printf("Error opening file.\n");
         return 1;
@@ -24,7 +23,6 @@ int main(){
     }
 
     printf("The maximum value in the file is: %d\n", maxValue);
-
     fclose(sourceFile);
 
     return 0;
