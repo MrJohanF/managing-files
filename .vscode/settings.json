@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "charconv": "c",
+        "stdio.h": "c",
+        "random": "c"
+    }
+}
